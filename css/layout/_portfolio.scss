@@ -1,0 +1,48 @@
+.portfolio {
+  width: 100%;
+  height: auto;
+  padding: 40px 50px;
+  background-image: url(../../images/info.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .bg-white {
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, .6);
+  }
+  .title {
+    @include title;
+  }
+  .portfolioPhoto {
+    cursor: pointer;
+    img {
+      width: 90%;
+      height: 100%;
+    }
+    .mask {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      cursor: pointer;
+      width: 90%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: all 0.6s;
+      color: $color-light;
+      &:hover {
+        opacity: 1;
+      }
+      h5 {
+        font-size: 22px;
+      }
+    }
+  }
+}

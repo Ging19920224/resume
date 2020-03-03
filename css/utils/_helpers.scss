@@ -1,0 +1,97 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  @include desktop-md {
+    width: 100%;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align-last: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-dark {
+  color: $color-dark;
+}
+.text-light {
+  color: $color-light;
+}
+.hide {
+  overflow: hidden;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-fixed {
+  position: fixed;
+}
+.border-10 {
+  border-radius: 10px;
+}
+.shape-round {
+  border-radius: 50%;
+}
+.box-shadow {
+  box-shadow: 1px 1px 5px black;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.ds-inline-block {
+  display: inline-block;
+}
+.m-auto {
+  margin: 0 auto;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-md-6 {
+  @include iPhone-X-horizontal {
+    width: 50%;
+  }
+  @include tablet {
+    width: 50%;
+  }
+}
+.col-sm-6 {
+  @include iPhone5-horizontal {
+    width: 100%;
+  }
+  @include Mobile {
+    width: 100%;
+  }
+}

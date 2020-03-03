@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ging Resume</title>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo ds-inline-block">
+      <img src="./images/images.jpg" class="shape-round">
+      <span class="logo__text">Ging</span>
+    </div>
+    <ul class="list float-right hide">
+      <li class="list__item">ABOUT</li>
+      <li class="list__item">SKILL</li>
+      <li class="list__item">PORTFOLIO</li>
+      <li class="list__item">CONTACT</li>
+    </ul>
+    <div class="menu position-absolute">
+      <i class="fas fa-bars"></i>
+    </d>
+    <div class="clear"></div>
+  </nav>
+  <header class="position-relative">
+    <h1 class="position-absolute text-center">
+      GING<br/>PORTFOLIO
+    </h1>
+    <p class="position-absolute text-center">FrontEnd Development</p>
+    <span class="arrow position-absolute">
+      <i class="fas fa-angle-double-down"></i>
+    </span>
+  </header>
+  <section class="about hide">
+    <div class="about__content">
+      <h2 class="title text-center">ABOUT</h2>
+      <p class="text-center mt-50">你好！我是張志銘(Ging)</p>
+      <p class="text-center mt-20">是個對程式充滿熱情，<br/>也樂於技術交流、分享的前端開發者</p>
+      <p class="text-center mt-20">目前透過 Udemy、HiSKIO <br/>和六角學院等平台專研前端技術開發</p>
+      <p class="text-center mt-50">
+        <a class="resume" href="https://github.com/Ging19920224/resume" target="_blank"><i class="fas fa-link"></i> resume</a>
+      </p>
+    </div>
+  </section>
+  <section class="skill hide">
+    <div class="skill__content">
+      <h2 class="title text-center">SKILL</h2>
+      <div class="container mt-50 row">
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/html-icon.png">
+        </div>
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/css-icon.png">
+        </div>
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/bootstrap4-icon.png">
+        </div>
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/sass-icon.png">
+        </div>
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/es6-icon.png">
+        </div>
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/jquery-icon.png">
+        </div>
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/vue-icon.png">
+        </div>
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/webpack-icon.png">
+        </div>
+        <div class="col-4 col-sm-6 text-center mt-10">
+          <img class="icon" src="./images/git.png">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio position-relative">
+    <div class="position-absolute bg-white"></div>
+    <h2 class="title text-center">PORTFOLIO</h2>
+    <div class="container mt-50 row">
+      <div class="col-4 col-md-6 col-sm-6 text-center mt-20 position-relative portfolioPhoto">
+        <img class="border-10 box-shadow" src="./images/EggCat-view.jpg" alt="蛋蛋小貓寵物用品屋" data-id="0">
+        <div class="position-absolute mask border-10 hide" data-id="0">
+          <h5><i class="fas fa-eye"></i></h5>
+          <h5 class="mt-10">蛋蛋小貓寵物用品屋</h5>
+          <p class="mt-10">Vue 電商專案</p>
+        </div>
+      </div>
+      <div class="col-4 col-md-6 col-sm-6 text-center mt-20 position-relative portfolioPhoto">
+        <img class="border-10 box-shadow" src="./images/Corner126-view.jpg" alt="轉角126" data-id="1">
+        <div class="position-absolute mask border-10 hide" data-id="1">
+          <h5><i class="fas fa-eye"></i></h5>
+          <h5 class="mt-10">轉角126</h5>
+          <p class="mt-10">webpack 專案</p>
+        </div>
+      </div>
+      <div class="col-4 col-md-6 col-sm-6 text-center mt-20 position-relative portfolioPhoto">
+        <img class="border-10 box-shadow" src="./images/MaskMap-view.jpg" alt="口罩地圖" data-id="2">
+        <div class="position-absolute mask border-10 hide" data-id="2">
+          <h5><i class="fas fa-eye"></i></h5>
+          <h5 class="mt-10">口罩地圖</h5>
+          <p class="mt-10">openstreetmap API</p>
+        </div>
+      </div>
+      <div class="col-4 col-md-6 col-sm-6 text-center mt-20 position-relative portfolioPhoto">
+        <img class="border-10 box-shadow" src="./images/Kaohsiung-view.jpg" alt="高雄旅遊資訊" data-id="3">
+        <div class="position-absolute mask border-10 hide" data-id="3">
+          <h5><i class="fas fa-eye"></i></h5>
+          <h5 class="mt-10">高雄旅遊資訊</h5>
+          <p class="mt-10">市政府 OpenData API</p>
+        </div>
+      </div>
+      <div class="col-4 col-md-6 col-sm-6 text-center mt-20 position-relative portfolioPhoto">
+        <img class="border-10 box-shadow" src="./images/BMI-view.jpg" alt="BMI計算器" data-id="4">
+        <div class="position-absolute mask border-10 hide" data-id="4">
+          <h5><i class="fas fa-eye"></i></h5>
+          <h5 class="mt-10">BMI 計算器</h5>
+          <p class="mt-10">localStorage Web API</p>
+        </div>
+      </div>
+      <div class="col-4 col-md-6 col-sm-6 text-center mt-20 position-relative portfolioPhoto">
+        <img class="border-10 box-shadow" src="./images/calculator.jpg" alt="計算機" data-id="5">
+        <div class="position-absolute mask border-10 hide" data-id="5">
+          <h5><i class="fas fa-eye"></i></h5>
+          <h5>計算機</h5>
+          <p>Vue.js</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="contact__content">
+      <h2 class="title text-center">CONTACT</h2>
+      <div class="photo shape-round"></div>
+      <h5 class="mt-10 text-center">Ging</h5>
+      <p class="mt-10 text-center">
+        <a class="text-dark" href="mailto:xa5566xa5566@gmail.com">
+          <i class="fas fa-envelope"></i>&nbsp
+          xa5566xa5566@gmail.com
+        </a>
+      </p>
+      <p class="mt-10 text-center">
+        <a class="link mr-10" href="https://medium.com/@xa5566xa5566" target="_bank">
+          <i class="fab fa-medium"></i>
+        </a>
+        <a class="link" href="https://github.com/Ging19920224" target="_bank">
+          <i class="fab fa-github"></i>
+        </a>
+      </p>
+    </div>
+  </section>
+  <div class="lightBox text-center hide">
+  </div>
+  <footer class="position-relative">
+    <p class="position-absolute copyRight text-center">
+      Copyright © Ging All rights reserved.
+    </p>
+  </footer>
+  <script src="./all.js"></script>
+</body>
+</html>

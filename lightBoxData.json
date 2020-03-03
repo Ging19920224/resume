@@ -1,0 +1,59 @@
+[
+  {
+    "name": "蛋蛋小貓寵物用品屋",
+    "description": "Vue 電商專案",
+    "demo": "https://ging19920224.github.io/EggCat/#/",
+    "github": "https://github.com/Ging19920224/EggCat_store",
+    "img": [
+      "./images/EggCat-index.jpg",
+      "./images/EggCat-product.jpg",
+      "./images/EggCat-ticket.jpg"
+    ]
+  },
+  {
+    "name": "轉角126",
+    "description": "webpack 專案",
+    "demo": "https://ging19920224.github.io/Corner-126/",
+    "github": "https://github.com/Ging19920224/Corner-126",
+    "img": [
+      "./images/Corner126-index.jpg"
+    ]
+  },
+  {
+    "name": "口罩地圖",
+    "description": "openstreetmap API",
+    "demo": "https://ging19920224.github.io/maskMap/",
+    "github": "https://github.com/Ging19920224/maskMap",
+    "img": [
+      "./images/MaskMap-view.jpg"
+    ]
+  },
+  {
+    "name": "高雄旅遊資訊",
+    "description": "市政府 OpenData API",
+    "demo": "https://ging19920224.github.io/Kaohsiung/",
+    "github": "https://github.com/Ging19920224/Kaohsiung",
+    "img": [
+      "./images/Kaohsiung-index.jpg"
+    ]
+  },
+  {
+    "name": "BMI 計算器",
+    "description": "localStorage Web API",
+    "demo": "https://ging19920224.github.io/BMI/",
+    "github": "https://github.com/Ging19920224/BMI",
+    "img": [
+      "./images/BMI-index.jpg"
+    ]
+  },
+  {
+    "name": "計算機",
+    "description": "Vue.js",
+    "demo": "https://ging19920224.github.io/calculator/",
+    "github": "https://github.com/Ging19920224/calculator",
+    "img": [
+      "./images/calculator.jpg"
+    ]
+  }
+
+]

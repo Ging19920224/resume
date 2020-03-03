@@ -1,0 +1,60 @@
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .5);
+  h1 {
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
+    color: $color-light;
+    text-shadow: 2px 2px 12px black;
+    border-bottom: 5px solid $color-info;
+    @include iPhone-X-horizontal {
+      font-size: 40px;
+    }
+    @include iPhone6-horizontal {
+      font-size: 40px;
+    }
+    @include iPhone5-horizontal {
+      font-size: 40px;
+    }
+    @include Mobile {
+      font-size: 50px;
+    }
+    @include iPhone5 {
+      font-size: 40px;
+    }
+  }
+  p {
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $color-light;
+    text-shadow: 2px 2px 12px black;
+    width: 100%;
+    @include iPhone-X-horizontal {
+      bottom: 30%;
+    }
+    @include iPhone6-horizontal {
+      bottom: 30%;
+    }
+    @include iPhone5-horizontal {
+      bottom: 30%;
+    }
+    @include Mobile {
+      bottom: 50%;
+    }
+  }
+  .arrow {
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    color: $color-light;
+    transition: all .5s;
+  }
+  .arrow-active {
+    color: $color-primary;
+  }
+}

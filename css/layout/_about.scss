@@ -1,0 +1,38 @@
+.about {
+  padding: 40px 50px;
+  width: 100%;
+  height: auto;
+  background-color: $color-info;
+  @include tablet {
+    padding: 20px 5px;
+  }
+  .about__content {
+    opacity: 0;
+    margin-top: 180px;
+    transition: all 1s;
+    .title {
+      @include title;
+    }
+    .resume {
+      padding: 10px 15px;
+      background-color: black;
+      color: $color-info;
+      border-radius: 20px;
+      transition: all .25s;
+      &:hover {
+        background-color: $color-danger;
+        color: $color-light;
+      }
+    }
+  }
+  .about__content-active {
+    opacity: 1;
+    margin-top: 0px;
+  }
+  br {
+    display: none;
+    @include Mobile {
+      display: block;
+    }
+  }
+}

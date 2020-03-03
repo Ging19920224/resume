@@ -1,0 +1,84 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 100px;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, .8);
+  color: $color-light;
+  z-index: 99;
+  @include iPhone-X-horizontal {
+    padding: 10px 50px;
+  }
+  @include tablet {
+    padding: 10px 50px;
+  }
+  @include Mobile {
+    padding: 10px 0px;
+  }
+  .logo {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    @include Mobile {
+      float: unset;
+      margin-left: 30px;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+    .logo__text {
+      font-size: 26px;
+      font-family: 'Abril Fatface', ;
+    }
+  }
+  .list {
+    list-style: none;
+    margin-top: 10px;
+    transition: all .8s;
+    height: auto;
+    @include Mobile {
+      float: unset;
+      width: 100%;
+      margin-top: 15px;
+      background-color: rgba(0, 0, 0, .8);
+      height: 0;
+    }
+    .list__item {
+      display: inline-block;
+      width: auto;
+      margin-right: 20px;
+      font-size: 14px;
+      cursor: pointer;
+      @include Mobile {
+        margin-right: unset;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px 5px;
+      }
+      &:hover {
+        transition: all .5s;
+        font-size: 16px;
+        color:$color-info;
+      }
+    }
+  }
+  .list-active {
+    height: 230px;
+  }
+  .menu {
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px;
+    color: $color-light;
+    display: none;
+    @include Mobile {
+      display: block;
+    }
+  }
+}
