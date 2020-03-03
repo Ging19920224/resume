@@ -825,7 +825,7 @@ header .arrow-active {
   width: 100%;
   height: auto;
   padding: 40px 50px;
-  background-image: url(../../images/info.jpg);
+  background-image: url(./../../images/info.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -936,7 +936,7 @@ header .arrow-active {
   height: 225px;
   border: 5px solid #c7c2c2;
   margin: 50px auto 20px auto;
-  background-image: url(../../images/Ging.png);
+  background-image: url(./../../images/Ging.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
