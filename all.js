@@ -71,7 +71,6 @@ menu.addEventListener('click', () => {
 })
 
 function scroll(topPosition) {
-  console.log(topPosition);
   window.scrollTo({ top: topPosition, behavior: 'smooth' });
 }
 function debounce(func, wait = 10, immediate = true) {
