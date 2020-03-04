@@ -18,7 +18,7 @@
 - 熟悉 HTML5 、 CSS 規劃網頁排版以及 RWD 網站開發
 - 能運用 Bootstrap 開發 RWD 網站
 - 熟悉 Sass 管理 CSS 以及規劃 Web Layout 架構
-- 熟悉 Javascript ES6 語法
+- 熟悉 JavaScript ES6 語法
 - 能運用 jQuery 開發動畫效果
 - 習慣使用 axios 串接 API
 - 能運用 Webpack 執行模組化開發
