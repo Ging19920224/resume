@@ -25,3 +25,4 @@
 - 能運用 Vue cli 並搭配 Vue Router 開發 SPA
 - 能運用 Vuex 管理專案網站資料
 - 能運用 Git 進行版本控制
+- 了解 PHP 和 MySQL 基本語法
