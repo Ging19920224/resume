@@ -717,7 +717,7 @@ header .arrow-active {
 .about {
   padding: 40px 50px;
   width: 100%;
-  height: auto;
+  height: 350px;
   background-color: #ffd902;
 }
 
@@ -782,9 +782,21 @@ header .arrow-active {
 
 .skill {
   width: 100%;
-  height: auto;
+  height: 600px;
   padding: 40px 50px;
   background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 560px) and (max-width: 570px) {
+  .skill {
+    height: 1400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skill {
+    height: 1400px;
+  }
 }
 
 .skill .skill__content {
@@ -823,12 +835,42 @@ header .arrow-active {
 
 .portfolio {
   width: 100%;
-  height: auto;
+  height: 700px;
   padding: 40px 50px;
   background-image: url("./../../images/info.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 810px) and (max-width: 824px) {
+  .portfolio {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 570px) {
+  .portfolio {
+    height: 1700px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio {
+    height: 1300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .portfolio {
+    height: 1000px;
+  }
 }
 
 .portfolio .bg-white {

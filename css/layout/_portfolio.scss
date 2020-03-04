@@ -1,11 +1,26 @@
 .portfolio {
   width: 100%;
-  height: auto;
+  height: 700px;
   padding: 40px 50px;
   background-image: url('./../../images/info.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  @include iPhone-X-horizontal {
+    height: 800px;
+  }
+  @include tablet {
+    height: 800px;
+  }
+  @include iPhone5-horizontal {
+    height: 1700px;
+  }
+  @include Mobile {
+    height: 1300px;
+  }
+  @include iPhone5 {
+    height: 1000px;
+  }
   .bg-white {
     width: 100%;
     height: 100%;

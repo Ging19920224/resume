@@ -1,8 +1,14 @@
 .skill {
   width: 100%;
-  height: auto;
+  height: 600px;
   padding: 40px 50px;
   background-color: $color-light;
+  @include iPhone5-horizontal {
+    height: 1400px;
+  }
+  @include Mobile {
+    height: 1400px;
+  }
   .skill__content {
     opacity: 0;
     margin-left: 800px;
