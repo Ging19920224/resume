@@ -1103,4 +1103,27 @@ footer .copyRight {
   opacity: 1;
   overflow-y: auto;
 }
+
+.loading {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+  z-index: 99;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.loading .loading__icon {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.loading-active {
+  opacity: 0;
+  z-index: -9;
+}
 /*# sourceMappingURL=style.css.map */

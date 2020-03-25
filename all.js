@@ -6,6 +6,7 @@ const arrow = document.querySelector('.arrow');
 const about = document.querySelector('.about__content');
 const skill = document.querySelector('.skill__content');
 const contact = document.querySelector('.contact__content');
+const loading = document.querySelector('.loading');
 const navHeight = document.querySelector('nav').offsetHeight;
 const aboutTop = document.querySelector('.about').offsetTop;
 const skillTop = document.querySelector('.skill').offsetTop;
@@ -14,6 +15,7 @@ const contactTop = document.querySelector('.contact').offsetTop;
 const mask = document.querySelectorAll('.mask');
 const lightBox = document.querySelector('.lightBox');
 let listChick = true;
+loadingDisappear();
 (() => {
   const request = new XMLHttpRequest();
   request.open(
@@ -135,4 +137,9 @@ function changeColor() {
     arrow.classList.remove('arrow-active');
     resetColor();
   },1500);
+}
+function loadingDisappear() {
+  setTimeout(() => {
+    loading.classList.add('loading-active');
+  },2500);
 }
