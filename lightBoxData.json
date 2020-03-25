@@ -38,12 +38,16 @@
     ]
   },
   {
-    "name": "BMI 計算器",
-    "description": "localStorage Web API",
-    "demo": "https://ging19920224.github.io/BMI/",
-    "github": "https://github.com/Ging19920224/BMI",
+    "name": "番茄鐘",
+    "description": "Vue & localStorage Web API",
+    "demo": "https://ging19920224.github.io/pomodoro/#/",
+    "github": "https://github.com/Ging19920224/pomodoro",
     "img": [
-      "./images/BMI-index.jpg"
+      "./images/pomodoro-index.png",
+      "./images/pomodoro-break.png",
+      "./images/pomodoro-Statistics.png",
+      "./images/pomodoro-ring.png",
+      "./images/pomodoro-setup.png"
     ]
   },
   {
