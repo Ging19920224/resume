@@ -359,9 +359,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  @include Mobile {
-    background-size: contain;
-  }
 }
 a {
   text-decoration: none;
